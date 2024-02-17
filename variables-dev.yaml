@@ -3,7 +3,6 @@ CATALOGUE_HOST: catalogue.app-dev.sowjanyaaws.xyz
 CART_HOST: cart.app-dev.sowjanyaaws.xyz
 USER_HOST: user.app-dev.sowjanyaaws.xyz
 REDIS_HOST: redis-dev.sowjanyaaws.xyz
-WEB_HOST: web-dev.sowjanyaaws.xyz
 MYSQL_HOST: mysql-dev.sowjanyaaws.xyz
 SHIPPING_HOST: shipping.app-dev.sowjanyaaws.xyz
 PAYMENT_HOST: payment.app-dev.sowjanyaaws.xyz
