@@ -20,10 +20,10 @@
 #     remote_src: yes
 - name: "downloading artifact from nexus"
   ansible.builtin.get_url: 
-    url: "{{NEXUS_URL}}/{{component}}/{{group_id}}/{{component}}/{{app_version}}/{{component}}-{{app_version}}.zip" 
+    url: "{{NEXUS_URL}}/{{component}}/{{group_id}}/{{component}}/{{app_version}}/{{component}}-{{app_version}}.{{packaging}}" 
     dest: /tmp
 - name: "extract {{component}} application" 
   ansible.builtin.unarchive:
-     src: "/tmp/{{component}}-{{app_version}}.zip"
+     src: "/tmp/{{component}}-{{app_version}}.{{packaging}}"
      dest: /app
      remote_src: yes
