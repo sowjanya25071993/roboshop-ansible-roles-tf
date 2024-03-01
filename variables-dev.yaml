@@ -8,5 +8,5 @@ SHIPPING_HOST: shipping.app-dev.sowjanyaaws.online
 PAYMENT_HOST: payment.app-dev.sowjanyaaws.online
 RABBITMQ_HOST: rabbitmq-dev.sowjanyaaws.online
 DISPATCH_HOST: dispatch.app-dev.sowjanyaaws.online
-NEXUS_URL: http://172.31.12.86:8081/repository
+NEXUS_URL: http://172.31.8.140:8081/repository
 group_id: "com/roboshop"
